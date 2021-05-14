@@ -1,5 +1,7 @@
+import java.util.Scanner;
+
 public class Main {
-    public static void main(String[]args){
+    public static void main(String[]args) {
         //BTVN buổi 1
 //        Rectangle r= new Rectangle();
 //        r.CalculatorPerimeterRectangle();
@@ -12,18 +14,25 @@ public class Main {
 
         // BTVN buổi 2
         // sử dụng switch case
-        Switch sw= new Switch();
-        sw.monthSwitch(2);
+//        Switch sw= new Switch();
+//        sw.monthSwitch(2);
         // sử dụng if else
-        IFELSE ifelse= new IFELSE();
-        ifelse.monthIfElse(2);
+//        IFELSE ifelse= new IFELSE();
+//        ifelse.monthIfElse(2);
         // nhập 3 số xem có phải là cạnh của tam giác
-        Triangles triangles= new Triangles();
-        triangles.numberTriangles(4,9,6);
+//        Triangles triangles= new Triangles();
+//        triangles.numberTriangles(4,9,6);
         // phương trình bậc 2
-        PTB2 ptb2=new PTB2();
-            ptb2.PTBH(0, 5, 10);
+//        PTB2 ptb2=new PTB2();
+//            ptb2.PTBH(0, 5, 10);
 
+        //BTNV buổi 3
+        // Bài 1: Liệt kê n số nguyên tố đầu tiên
+            PrimeNumber primeNumber= new PrimeNumber();
+            primeNumber.primeNumber();
+        // Liệt kê các số nguyên tố  < n
+            primeNumber.listPrimeNumber();
 
     }
-}
+    }
+
