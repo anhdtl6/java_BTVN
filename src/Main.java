@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[]args) {
@@ -12,7 +11,7 @@ public class Main {
 //        double rc = c.CalculatorCircleArea();
 //        System.out.println("Circle Area:"+rc);
 
-        // BTVN buổi 2
+        // ----- BTVN buổi 2
         // sử dụng switch case
 //        Switch sw= new Switch();
 //        sw.monthSwitch(2);
@@ -26,12 +25,28 @@ public class Main {
 //        PTB2 ptb2=new PTB2();
 //            ptb2.PTBH(0, 5, 10);
 
-        //BTNV buổi 3
+        // ---- BTNV buổi 3
         // Bài 1: Liệt kê n số nguyên tố đầu tiên
-            PrimeNumber primeNumber= new PrimeNumber();
-            primeNumber.primeNumber();
+          //  PrimeNumber primeNumber= new PrimeNumber();
+         //   primeNumber.primeNumber();
         // Liệt kê các số nguyên tố  < n
-            primeNumber.listPrimeNumber();
+         //   primeNumber.listPrimeNumber();
+        // Liệt kê n số fibonacci đầu tiên
+        //Fibonacci fibonacci= new Fibonacci();
+       // fibonacci.fibonacciFirst();
+       // fibonacci.listFibonacci();
+        // Bài 3 Tính n!
+        //GiaiThua giaiThua= new GiaiThua();
+        //giaiThua.nGiaiThua();
+
+     //   -- BTVN Buổi 4
+        //Bài 5: Index của chuỗi
+        IndexString indexString= new IndexString();
+        indexString.indexString();
+        //Bài 8, 15: Đến số từ trong chuỗi, số lần xuất hiện kí tự 'o'trong chuỗi
+        CountString countString= new CountString();
+        countString.countWord();
+        countString.countString();
 
     }
     }

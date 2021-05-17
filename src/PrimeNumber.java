@@ -18,9 +18,9 @@ public class PrimeNumber {
         System.out.print("Nhập n = ");
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        System.out.printf("%d số nguyên tố đầu tiên là: \n", n);
         int dem = 0; // đếm số số nguyên tố
         int i = 2;   // tìm số nguyên tố bắt dầu từ số 2
+        System.out.printf("%d số nguyên tố đầu tiên là: \n", n);
         while (dem < n) {
             if (isPrimeNumber(i)) {
                 System.out.print(i + " ");
@@ -31,7 +31,7 @@ public class PrimeNumber {
     }
      void listPrimeNumber()
     {
-        System.out.print("\tNhập n = ");
+        System.out.print("\nNhập n = ");
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         System.out.printf("Tất cả các số nguyên tố nhỏ hơn %d là:", n);
