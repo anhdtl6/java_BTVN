@@ -50,7 +50,9 @@ public class Main {
 
         //---Buổi 5: Mảng
         Array array= new Array();
+        //bài 2
         array.arrayString();
+        //bài 1
         array.intArray();
 
     }
