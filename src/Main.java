@@ -41,12 +41,17 @@ public class Main {
 
      //   -- BTVN Buổi 4
         //Bài 5: Index của chuỗi
-        IndexString indexString= new IndexString();
-        indexString.indexString();
+//        IndexString indexString= new IndexString();
+//        indexString.indexString();
         //Bài 8, 15: Đến số từ trong chuỗi, số lần xuất hiện kí tự 'o'trong chuỗi
-        CountString countString= new CountString();
-        countString.countWord();
-        countString.countString();
+//        CountString countString= new CountString();
+//        countString.countWord();
+//        countString.countString();
+
+        //---Buổi 5: Mảng
+        Array array= new Array();
+        array.arrayString();
+        array.intArray();
 
     }
     }

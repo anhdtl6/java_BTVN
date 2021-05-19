@@ -28,6 +28,15 @@ public class PrimeNumber {
             }
             i++;
         }
+//      Dùng do-while
+//        int i = 0;
+//        do {
+//            if (isPrimeNumber(i)) {
+//                System.out.print(i + "\t");
+//                dem++;
+//            }
+//            i++;
+//        } while (dem < n);
     }
      void listPrimeNumber()
     {
