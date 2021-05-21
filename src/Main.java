@@ -48,12 +48,17 @@ public class Main {
 //        countString.countWord();
 //        countString.countString();
 
-        //---Buổi 5: Mảng
-        Array array= new Array();
+        //---Buổi 5: Mảng một chiều
+        //Array array= new Array();
         //bài 2
-       // array.arrayString();
+        //array.arrayString();
         //bài 1
-        array.intArray();
+       // array.intArray();
+
+        //---Buổi 6: Mảng đa chiều
+        MultiArray multiArray= new MultiArray();
+        multiArray.multiArray();
+
 
     }
     }
